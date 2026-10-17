@@ -1,0 +1,87 @@
+{
+  "identifier" : "E2B969E3",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "28.0",
+      "familyShareable" : true,
+      "internalID" : "C88E1F73",
+      "localizations" : [
+        {
+          "description" : "永久解锁全书智能重排与全部高级功能",
+          "displayName" : "PDFview Pro 永久买断版",
+          "locale" : "zh_CN"
+        },
+        {
+          "description" : "Unlock unlimited pages reflow and all advanced features",
+          "displayName" : "PDFview Pro Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.duokan.pdfview.pro.lifetime",
+      "referenceName" : "PDFview Pro Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "zh_CN",
+    "_storefront" : "CHN",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

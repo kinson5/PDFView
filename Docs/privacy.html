@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - PDFview (Privacy Policy)</title>
+    <style>
+        :root {
+            --bg: #F5F5F7;
+            --card-bg: #FFFFFF;
+            --text-main: #1D1D1F;
+            --text-sec: #86868B;
+            --border: rgba(0, 0, 0, 0.08);
+            --accent: #007AFF;
+            --radius-lg: 20px;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #000000;
+                --card-bg: #1C1C1E;
+                --text-main: #F5F5F7;
+                --text-sec: #A1A1A6;
+                --border: rgba(255, 255, 255, 0.12);
+            }
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 24px;
+        }
+        .content-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .effective-date {
+            color: var(--text-sec);
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 8px;
+        }
+        p, li {
+            color: var(--text-main);
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        footer {
+            text-align: center;
+            color: var(--text-sec);
+            font-size: 14px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="index.html" class="back-link">← 返回 PDFview 首页</a>
+
+    <div class="content-card">
+        <h1>PDFview 隐私政策</h1>
+        <div class="effective-date">更新日期：2026 年 10 月 17 日 | 生效日期：2026 年 10 月 17 日</div>
+
+        <p>感谢您使用 <strong>PDFview</strong>（以下简称“本应用”）。本应用由独立开发者研发，致力于为用户提供安全、纯净、无干扰的高品质离线阅读体验。我们严格遵守 Apple App Store 审核准则（特别是 Guideline 5.1.1 数据保护条款）以及相关法律法规。</p>
+        <p><strong>简要总结：PDFview 是一款 100% 本地运行的工具类软件，我们不收集、不存储、不共享您的任何个人身份信息或文档数据。</strong></p>
+
+        <h2>1. 数据收集与使用</h2>
+        <p>本应用在运行期间：</p>
+        <ul>
+            <li><strong>不收集个人数据</strong>：本应用不收集您的姓名、电话号码、电子邮件地址、地理位置、通讯录、相册内容或任何形式的设备唯一识别码（IDFA、IDFV 等）。</li>
+            <li><strong>纯本地文档处理</strong>：您导入的所有 PDF 文档、书籍照片或相册图片，仅在您设备的本地沙盒中进行图形切片、文字流式重排与透视纠偏处理。本应用不设立任何用于中转或分析用户文档的远程服务器。</li>
+            <li><strong>无第三方分析/广告 SDK</strong>：本应用未集成任何第三方广告平台、数据统计分析或行为追踪 SDK，不存在跨应用数据追踪行为。</li>
+        </ul>
+
+        <h2>2. iCloud 同步机制说明</h2>
+        <p>为了让您在拥有的多台 Apple 设备（iPhone、iPad、Mac）之间无缝接力阅读：</p>
+        <ul>
+            <li>本应用支持基于 Apple 官方 iCloud 技术的同步服务。</li>
+            <li>为了极致节约您的云空间，本应用<strong>不上传大体积的 PDF 文件</strong>，仅同步书籍文件名及轻量阅读状态（当前页码、缩放比例、排版模式设置）。</li>
+            <li>所有同步数据均直接存储在 Apple 提供的<strong>私有 iCloud 容器</strong>（Private Database）中，数据全程采用端到端加密传输与存储。开发者及任何第三方均无权查看或访问该数据。</li>
+            <li>您可以在 iOS 或 macOS 的「系统设置 → Apple ID → iCloud」中随时关闭本应用的 iCloud 同步权限。</li>
+        </ul>
+
+        <h2>3. 权限调用说明</h2>
+        <ul>
+            <li><strong>照片访问权限（可选）</strong>：仅当您在应用内主动选择从系统相册导入拍摄的书籍照片或长图时，本应用才会请求照片读取权限。该权限仅用于单次加载您指定的图片并进行本地切边与重排，绝不会后台读取或上传相册内容。</li>
+            <li><strong>文件访问权限</strong>：仅在您通过系统标准文件选择器（UIDocumentPicker / NSOpenPanel）主动选取 PDF 或图片时，在系统授权的沙盒安全作用域（Security-scoped URL）内访问文档。</li>
+        </ul>
+
+        <h2>4. 应用内购买（In-App Purchase）</h2>
+        <p>本应用提供「PDFview Pro 永久买断版」应用内购买服务：</p>
+        <ul>
+            <li>所有支付交易与凭证验证均由 Apple 官方 StoreKit 2 框架直接处理。</li>
+            <li>本应用不会收集或处理任何信用卡号、银行账号或 Apple ID 密码等财务敏感信息。</li>
+        </ul>
+
+        <h2>5. 儿童隐私</h2>
+        <p>本应用不面向 13 岁以下儿童收集任何个人信息，符合儿童在线隐私保护法（COPPA）及相关国际法规。</p>
+
+        <h2>6. 隐私政策的更新</h2>
+        <p>若隐私政策发生任何微调，我们将在此页面发布更新后的版本。您可通过本页面随时查阅最新条款。</p>
+
+        <h2>7. 联系我们</h2>
+        <p>如果您对本隐私政策有任何疑问、意见或反馈，请通过以下方式联系：</p>
+        <p><strong>电子邮箱</strong>：<a href="mailto:support@pdfview.app" style="color:var(--accent);">support@pdfview.app</a> 或在 GitHub 仓库提交 Issue。</p>
+    </div>
+
+    <footer>
+        <p>© 2026 PDFview. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>

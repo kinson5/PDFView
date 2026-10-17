@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>技术支持与常见问题 - PDFview (Support & FAQ)</title>
+    <style>
+        :root {
+            --bg: #F5F5F7;
+            --card-bg: #FFFFFF;
+            --text-main: #1D1D1F;
+            --text-sec: #86868B;
+            --border: rgba(0, 0, 0, 0.08);
+            --accent: #007AFF;
+            --radius-lg: 20px;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #000000;
+                --card-bg: #1C1C1E;
+                --text-main: #F5F5F7;
+                --text-sec: #A1A1A6;
+                --border: rgba(255, 255, 255, 0.12);
+            }
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 24px;
+        }
+        .content-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 36px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: var(--text-sec);
+            font-size: 15px;
+            margin-bottom: 28px;
+        }
+        .faq-item {
+            margin-bottom: 24px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .faq-q {
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .faq-q::before {
+            content: "Q:";
+            color: var(--accent);
+            font-weight: 700;
+        }
+        .faq-a {
+            color: var(--text-sec);
+            font-size: 15px;
+            padding-left: 26px;
+        }
+        .contact-box {
+            background: rgba(0, 122, 255, 0.06);
+            border: 1px solid rgba(0, 122, 255, 0.15);
+            border-radius: 14px;
+            padding: 20px;
+            margin-top: 24px;
+        }
+        .contact-box h3 {
+            font-size: 16px;
+            color: var(--text-main);
+            margin-bottom: 6px;
+        }
+        .contact-box p {
+            font-size: 14px;
+            color: var(--text-sec);
+        }
+        footer {
+            text-align: center;
+            color: var(--text-sec);
+            font-size: 14px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="index.html" class="back-link">← 返回 PDFview 首页</a>
+
+    <div class="content-card">
+        <h1>技术支持与帮助中心</h1>
+        <div class="subtitle">PDFview 官方支持、常见排错与用户反馈通道</div>
+
+        <div class="faq-item">
+            <div class="faq-q">如何将电脑或微信中的 PDF 导入到 PDFview 中？</div>
+            <div class="faq-a">
+                您可以在微信或其他 App 中点击 PDF 文件，选择右上角的「分享 / 用其他应用打开」，在列表中选择 <strong>PDFview</strong>；或者直接打开 PDFview，在主界面点击「打开 PDF 或图片」从系统的“文件” App 中浏览选取。
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">如何使用“四角手动切边”与梯形纠偏？</div>
+            <div class="faq-a">
+                当您打开一张手机拍摄的书籍照片或截图时，在顶部工具栏点击 <strong>✂️（切边按钮）</strong> 即可进入交互纠偏视图。用手指拖动四个圆角顶点对准书页边缘，点击「完成纠偏」，系统将自动完成透视拉伸与黑边切除。
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">更换手机或重装应用后，如何恢复已购买的 Pro 权益？</div>
+            <div class="faq-a">
+                PDFview Pro 为一次买断、终身享有。如果在新设备上安装，请确保登录了同一个 Apple ID，打开 PDFview 点击顶部 <strong>👑 PRO</strong> 按钮，在弹出的购买页面中点击右上角或底部的 <strong>「恢复购买」(Restore Purchases)</strong>，系统将瞬间找回您的 Pro 状态，无需再次付费。
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">为什么有些古籍或竖排书籍文字会颠倒？</div>
+            <div class="faq-a">
+                中国传统古代书籍通常为「由右至左竖排」。在顶部工具栏的设置或翻页模式中勾选 <strong>「[✓] 竖排」</strong>，系统会自动反转列顺序，并调整左右滑动手势方向以符合传统阅读习惯。
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">iCloud 同步是如何工作的？</div>
+            <div class="faq-a">
+                PDFview 采用轻量化同步方案，不传输大体积书籍文件本身。只要您在 iPhone 和 iPad 上打开同名书籍，系统会通过私有 iCloud 自动同步最新已读页码、排版模式与切边参数，实现多设备接力畅读。
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <h3>遇到其他问题或有新功能建议？</h3>
+            <p>欢迎直接通过电子邮件与开发者沟通：<a href="mailto:support@pdfview.app" style="color:var(--accent); font-weight:600;">support@pdfview.app</a></p>
+            <p style="margin-top: 4px;">我们通常会在 24 小时内回复您的技术咨询与反馈。</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 PDFview. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>

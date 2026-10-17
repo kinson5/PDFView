@@ -1,0 +1,27 @@
+.DS_Store
+*/.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+*.xcuserstate
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+
+# Build outputs
+*.app
+*.app/
+build/
+build-mac-ios/
+*.dSYM
+
+# Local test books & sample photos (prevent exceeding GitHub 100MB limit)
+*.pdf
+*.PDF
+*.heic
+*.HEIC
+34.JPG
+IMG_0044.jpg
+nanyang_p20.png
+GamepadReader
